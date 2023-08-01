@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "start": "node --watch ./src/app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "name": "desafioentregable3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
