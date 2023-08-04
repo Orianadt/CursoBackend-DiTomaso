@@ -1,0 +1,12 @@
+[
+    { "id": "1", "name": "Remera", "Description": "Azul", "price": 1000, "Code": "200" },
+    { "id": "2", "name": "Remera", "Description": "Naranja", "price": 1000, "Code": "201" },
+    { "id": "3", "name": "Remera", "Description": "Rosa", "price": 1000, "Code": "202" },
+    { "id": "4", "name": "Remera", "Description": "Violeta", "price": 1000, "Code": "203" } ,
+    { "id": "5", "name": "Remera", "Description": "Amarillo", "price": 1000, "Code": "204" },
+    { "id": "6", "name": "Remera", "Description": "Verde", "price": 1000, "Code": "205" },
+    { "id": "7", "name": "Remera", "Description": "Lila", "price": 1000, "Code": "206" },
+    { "id": "8", "name": "Remera", "Description": "Celeste", "price": 1000, "Code": "207" },
+    { "id": "9", "name": "Remera", "Description": "Blanca", "price": 1000, "Code": "208" },
+    { "id": "10", "name": "Remera", "Description": "Negra", "price": 1000, "Code": "209" }
+]  
