@@ -1,0 +1,27 @@
+<div>
+      <h2>Agregar nuevo producto</h2>
+  <form id="addProductForm">
+    <input type="text" id="productTitle" placeholder="Product Title" required>
+    <button type="submit">Agregar Producto</button>
+  </form>
+</div>
+<script src="/socket.io/socket.io.js"></script>
+<script src="/src/public/js/index.js"></script>
+
+<script>
+    const socket = io();
+    const addProductForm = document.getElementById('addProductForm');
+    const productTitleInput = document.getElementById('productTitle');
+
+    addProductForm.addEventListener('submit', (event) => {
+      event.preventDefault();
+
+      const newProduct = {
+        title: productTitleInput.value,
+      };
+       socket.emit('addProduct', newProduct);
+
+      productTitleInput.value = '';
+    });
+
+  </script>
